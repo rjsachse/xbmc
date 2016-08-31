@@ -923,6 +923,7 @@ msgctxt "#207"
 msgid "Plot"
 msgstr ""
 
+#: xbmc/pvr/windows/PVRGUIWindowRecordings.cpp
 #: xbmc/dialogs/GUIDialogPlayEject.cpp
 #: system/settings/settings.xml
 msgctxt "#208"
@@ -5176,6 +5177,8 @@ msgctxt "#12022"
 msgid "Resume from %s"
 msgstr ""
 
+#. Label of video/recordings context menu items
+#: xbmc/pvr/windows/PVRGUIWindowRecordings.cpp
 #: xbmc/video/ContextMenus.cpp
 msgctxt "#12023"
 msgid "Play from beginning"
@@ -6828,7 +6831,6 @@ msgctxt "#13518"
 msgid "When the speed change exceeds this threshold, a pitch-correction filter will be applied. This avoids the \"chipmonk voices\" that normally result from speeding up a video"
 msgstr ""
 
-
 #empty strings from id 13519 to 13549
 
 #: system/settings/settings.xml
@@ -7506,7 +7508,13 @@ msgctxt "#14124"
 msgid "Region C"
 msgstr ""
 
-#empty strings from id 14125 to 14199
+#. This is in the context of input devices!
+#: system/settings/settings.xml
+msgctxt "#14125"
+msgid "Input"
+msgstr ""
+
+#empty strings from id 14126 to 14199
 
 #: system/settings/settings.xml
 msgctxt "#14200"
@@ -8145,7 +8153,7 @@ msgctxt "#15086"
 msgid "Post-process"
 msgstr ""
 
-#. Audio DSP process chain indication
+#. Audio DSP process chain indication - this is in the context of input signal
 #: xbmc/settings/dialogs/GUIDialogAudioDSPSettings.cpp
 #: system/settings/settings.xml
 msgctxt "#15087"
@@ -8513,12 +8521,12 @@ msgctxt "#16039"
 msgid "Off"
 msgstr ""
 
-#empty strings from id 16040 to 16040
+#empty string with id 16040
 
 #: xbmc/guilib/GUIRadioButtonControl.cpp"
-msgctxt "#16041"		
-msgid "On"		
-msgstr ""		
+msgctxt "#16041"
+msgid "On"
+msgstr ""
 
 #empty strings from id 16042 to 16099
 
@@ -16053,7 +16061,41 @@ msgctxt "#35064"
 msgid "Pair your controllers with the various input devices of different game systems."
 msgstr ""
 
-#empty strings from id 35065 to 35087
+#empty strings from id 35065 to 35073
+
+#. Label for buttons that appear on the face of the controller. Used in the controller mapping dialog.
+msgctxt "#35074"
+msgid "Face buttons"
+msgstr ""
+
+#. Label for buttons that appear on the shoulders of the controller. Used in the controller mapping dialog.
+msgctxt "#35075"
+msgid "Shoulder buttons"
+msgstr ""
+
+#. Label for triggers on the controller. Used in the controller mapping dialog.
+msgctxt "#35076"
+msgid "Triggers"
+msgstr ""
+
+#. Label for analog sticks on the controller. Used in the controller mapping dialog.
+msgctxt "#35077"
+msgid "Analog sticks"
+msgstr ""
+
+#. Setting title for left analog stick deadzone
+#: system/peripherals.xml
+msgctxt "#35078"
+msgid "Left stick deadzone"
+msgstr ""
+
+#. Setting title for right analog stick deadzone
+#: system/peripherals.xml
+msgctxt "#35079"
+msgid "Right stick deadzone"
+msgstr ""
+
+#empty strings from id 35080 to 35087
 
 #. Name of the setting that enables/disables powering off controllers on exit
 #: system/settings/settings.xml
@@ -19528,4 +19570,3 @@ msgstr ""
 msgctxt "#39007"
 msgid "This provides access to where picture sources can be added and otherwise managed."
 msgstr ""
-
